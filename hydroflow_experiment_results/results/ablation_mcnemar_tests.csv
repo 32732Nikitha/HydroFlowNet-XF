@@ -1,0 +1,4 @@
+Comparison,Both Correct,Full Correct / Ablation Wrong,Full Wrong / Ablation Correct,Both Wrong,Statistic,p-value,Holm p-value,Significant (alpha=0.05)
+HydroFlowNet-XF vs w/o GMF,363,5,6,18,0.0,1.0,1.0,False
+HydroFlowNet-XF vs w/o LFIE,366,2,15,9,8.470588235294118,0.00360934693594544,0.01082804080783632,True
+HydroFlowNet-XF vs w/o Trust,366,2,8,16,2.5,0.11384629800665763,0.22769259601331526,False

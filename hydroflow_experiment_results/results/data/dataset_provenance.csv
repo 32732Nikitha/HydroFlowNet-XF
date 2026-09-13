@@ -1,0 +1,2 @@
+PDE,Filename,PDEBench_Path,Source_URL,Expected_MD5,Verified_MD5,Local_Path,Integrity_Status
+SWE,2D_rdb_NA_NA.h5,2D/shallow-water/,https://darus.uni-stuttgart.de/api/access/datafile/133021,75d838c47aa410694bdc912ea7f22282,75d838c47aa410694bdc912ea7f22282,hydroflow_pde_data/2D/shallow-water/2D_rdb_NA_NA.h5,PASS

@@ -1,0 +1,11 @@
+Parameter,Value
+Batch size,1
+Warm-up runs,50
+Timed runs,500
+HydroFlowNet-XF input,"M:[1,3,4,4] + S:[1,3,4,3]"
+LSTM input,"[1,3,7]"
+TCN input,"[1,3,7]"
+Classical baseline input,"[1,21]"
+HydroFlowNet-XF training,Not performed
+Accuracy evaluation,Not performed
+Purpose,Inference latency profiling only

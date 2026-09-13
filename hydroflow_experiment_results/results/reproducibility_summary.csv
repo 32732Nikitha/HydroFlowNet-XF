@@ -1,0 +1,27 @@
+Parameter,Value
+Framework,HydroFlowNet-XF
+Seed,42
+Dataset,PDEBench 2D shallow-water (SWE)
+Selected trajectories,"0000,0001,0002,0003,0004"
+History K,3
+Number of zones,4
+Latent dimension,256
+Batch size,16
+Epochs,10
+Learning rate,0.0001
+Focal alpha,5
+Focal gamma,3
+Temporal regularization weight,0.1
+Temperature,0.5
+Train ratio,0.8
+Validation ratio,0.2
+Reference train windows,392
+Reference validation windows,98
+Reference train zone-instances,1568
+Reference validation zone-instances,392
+Trajectory-independent train trajectories,"0,1,2,3"
+Trajectory-independent held-out trajectory,4
+Trajectory-independent train windows,392
+Trajectory-independent validation windows,98
+Baselines,"Logistic Regression, Random Forest, MLP, LSTM, TCN"
+Ablations,"w/o GMF, w/o LFIE, w/o Trust"

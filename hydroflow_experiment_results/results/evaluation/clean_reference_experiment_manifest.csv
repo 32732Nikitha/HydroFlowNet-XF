@@ -1,0 +1,2 @@
+dataset,selected_trajectories,trajectory_length,spatial_grid,num_drifters,sensor_grid_size,num_zones,history_k,latent_dim,risk_rule,train_ratio,validation_ratio,split_seed,batch_size,epochs,learning_rate,focal_alpha,focal_gamma,temperature,temporal_weight,accuracy,precision,recall,f1,roc_auc,pr_auc,brier
+2D_rdb_NA_NA.h5,"0000,0001,0002,0003,0004",101,128x128,100,4,4,3,256,mean + 1.0 * std,0.8,0.2,42,16,10,0.0001,5,3,0.5,0.1,0.9387755102040817,0.8734177215189873,0.971830985915493,0.92,0.9911830985915494,0.9829208364239869,0.1127910551459647

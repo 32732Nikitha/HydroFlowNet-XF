@@ -1,0 +1,19 @@
+Parameter,Value
+framework,HydroFlowNet-XF
+seed,42
+dataset,PDEBench 2D shallow-water
+selected_trajectories,"[0, 1, 2, 3, 4]"
+random_split,"{'method': 'random_split', 'train_windows': 392, 'validation_windows': 98}"
+trajectory_independent_split,"{'train_trajectories': [0, 1, 2, 3], 'heldout_trajectories': [4], 'train_windows': 392, 'validation_windows': 98}"
+history_length,3
+num_zones,4
+latent_dim,256
+batch_size,16
+epochs,10
+learning_rate,0.0001
+focal_alpha,5
+focal_gamma,3
+temporal_regularization_weight,0.1
+risk_threshold,mean + 1.0 * std
+baselines,"['Logistic Regression', 'Random Forest', 'MLP', 'LSTM', 'TCN']"
+ablations,"['w/o GMF', 'w/o LFIE', 'w/o Trust']"
